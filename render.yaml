@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: cartoon-video-api
+    env: nodejs
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
